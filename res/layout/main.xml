@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btNovaVenda"
+        style="@style/andy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="novaVendaClick"
+        android:text="Nova Venda" />
+
+    <Button
+        android:id="@+id/btListarVendas"
+        style="@style/andy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="listarVendasClick"
+        android:text="Listar Vendas" />
+
+    <Button
+        android:id="@+id/btnReplicar"
+        style="@style/andy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ReplicarClick"
+        android:text="Iniciar Replicação" />
+
+    <Button
+        android:id="@+id/btSair"
+        style="@style/andy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sair" />
+
+    <TextView
+        android:id="@+id/txtStatusConexao"
+        style="@style/andy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status da Conexão: verificando ..."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
